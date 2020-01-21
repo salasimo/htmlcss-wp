@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/nature-bg.jpg);
+}
+
+.container{
+    width: 85%; /*vw ha problemi su Firefox,
+    a volte la pagina non si adatta dinamicamente
+    ma solo al reload*/
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    height: 300px;
+    margin: 20px 0;
+}
+
+/* HEADER SUPERIORE (IMMAGINE E LOGO)
+=====================================*/
+
+div.header-sup{
+    height: 80%;
+    border: 5px solid #fff;
+    position: relative;
+
+}
+
+.header-sup img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.logo{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.logo h1{
+    display: inline;
+    border: 3px solid #fff;
+    padding: 0 10px;
+    font-size: 60px;
+}
+.logo h2{
+    margin-top: 10px;
+}
+
+.logo i{
+    font-size: 30px;
+}
+
+/* HEADER INFERIORE (BARRA NAV)
+================================*/
+
+nav{
+height:20%;
+background-color: #263e3f;
+text-align: center;
+
+}
+
+nav ul li{
+    display:inline-block;
+    padding: 0 10px;
+}
+
+nav ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 60px;
+
+
+}
+
+nav ul li:hover{
+    background-color: #fff;
+}
+nav ul li:hover a{
+    color: #263e3f;
+}
+
+/* ROW PRINCIPALE
+=================*/
+
+
+.row h1, h2, h3{
+    margin-bottom: 20px;
+}
+
+.content{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+aside{
+    width: 25%;
+    float: left;
+}
+
+aside .content{
+    background-color: #fff;
+}
+
+aside ul{
+    list-style: none;
+}
+aside ul li{
+    margin-bottom: 20px;
+}
+aside ul li:last-of-type{
+    margin-bottom: 0;
+    background-color:
+}
+
+aside a{
+    color: inherit;
+}
+
+main{
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+main .content{
+    background-color: #fff;
+}
+
+/* FOOTER
+==========*/
+
+footer{
+    height: 100px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.footer-bar{
+    text-align: center;
+    color: #1d1d1d90;
+    height: 30%;
+    border-bottom: 1px solid #1d1d1d90;
+}
+
+.footer-bar p{
+line-height: 30px;
+}
+
+.social-bar{
+    text-align: center;
+}
+.social-bar ul li{
+    display: inline-block;
+    margin-right: 120px;
+    line-height: 70px;
+}
+
+.social-bar ul li:last-of-type{
+    margin-right: 0;
+}
+
+.social-bar a{
+    text-decoration: none;
+    color: #1d1d1d90;
+    font-size: 30px;
+}
+
+.social-bar a:hover{
+    color: #1d1d1d;
+}
