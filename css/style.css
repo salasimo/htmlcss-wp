@@ -62,8 +62,10 @@ div.header-sup {
     font-size: 60px;
 }
 
-.logo h2 {
+.tag-line {
     margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .logo i {
