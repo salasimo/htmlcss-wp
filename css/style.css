@@ -5,18 +5,19 @@
 }
 
 .clearfix:after {
-    content:"";
+    content: "";
     display: table;
     clear: both;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background-image: url("../img/nature-bg.jpg");
 }
 
-.container{
-    width: 85%; /*vw ha problemi su Firefox,
+.container {
+    width: 85%;
+    /*vw ha problemi su Firefox,
     a volte la pagina non si adatta dinamicamente
     ma solo al reload*/
     max-width: 1200px;
@@ -24,29 +25,27 @@ body{
     margin: 0 auto;
 }
 
-header{
+header {
     height: 300px;
     margin: 20px 0;
 }
 
 /* HEADER SUPERIORE (IMMAGINE E LOGO)
 =====================================*/
-
-div.header-sup{
+div.header-sup {
     height: 80%;
     border: 5px solid #fff;
     position: relative;
-
 }
 
-.header-sup img{
+.header-sup img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
 }
 
-.logo{
+.logo {
     text-align: center;
     position: relative;
     left: 50%;
@@ -55,140 +54,138 @@ div.header-sup{
     color: #fff;
 }
 
-.logo h1{
+.logo h1 {
     display: inline;
     border: 3px solid #fff;
     padding: 0 10px;
     font-size: 60px;
 }
-.logo h2{
+
+.logo h2 {
     margin-top: 10px;
 }
 
-.logo i{
+.logo i {
     font-size: 30px;
 }
 
 /* HEADER INFERIORE (BARRA NAV)
 ================================*/
-
-nav{
-height:20%;
-background-color: #263e3f;
-text-align: center;
-
+nav {
+    height: 20%;
+    background-color: #263e3f;
+    text-align: center;
 }
 
-nav ul li{
-    display:inline-block;
+nav ul li {
+    display: inline-block;
     padding: 0 10px;
 }
 
-nav ul li a{
+nav ul li a {
     display: block;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 60px;
-
-
 }
 
-nav ul li:hover{
+nav ul li:hover {
     background-color: #fff;
 }
-nav ul li:hover a{
+
+nav ul li:hover a {
     color: #263e3f;
 }
 
 /* ROW PRINCIPALE
 =================*/
-
-
-.row h1, h2, h3{
+.row h1, h2, h3 {
     margin-bottom: 20px;
 }
 
-.content{
+.content {
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
 }
 
-aside{
+aside {
     width: 25%;
     float: left;
 }
 
-aside .content{
+aside .content {
     background-color: #fff;
 }
 
-aside ul{
+aside ul {
     list-style: none;
 }
-aside ul li{
+
+aside ul li {
     margin-bottom: 20px;
 }
-aside ul li:last-of-type{
+
+aside ul li:last-of-type {
     margin-bottom: 0;
     background-color:
 }
 
-aside a{
+aside a {
     color: inherit;
 }
 
-main{
+main {
     float: left;
     width: 50%;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
-main .content{
+main .content {
     background-color: #fff;
 }
 
 /* FOOTER
 ==========*/
-
-footer{
+footer {
     height: 100px;
     background-color: #fff;
     margin-bottom: 20px;
     border-radius: 8px;
 }
 
-.footer-bar{
+.footer-bar {
     text-align: center;
     color: #1d1d1d90;
     height: 30%;
     border-bottom: 1px solid #1d1d1d90;
 }
 
-.footer-bar p{
-line-height: 30px;
+.footer-bar p {
+    line-height: 30px;
 }
 
-.social-bar{
+.social-bar {
     text-align: center;
 }
-.social-bar ul li{
+
+.social-bar ul li {
     display: inline-block;
     margin-right: 120px;
     line-height: 70px;
 }
 
-.social-bar ul li:last-of-type{
+.social-bar ul li:last-of-type {
     margin-right: 0;
 }
 
-.social-bar a{
+.social-bar a {
     text-decoration: none;
     color: #1d1d1d90;
     font-size: 30px;
 }
 
-.social-bar a:hover{
+.social-bar a:hover {
     color: #1d1d1d;
 }
