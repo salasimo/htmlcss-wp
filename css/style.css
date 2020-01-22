@@ -54,7 +54,8 @@ div.header-sup {
     color: #fff;
 }
 
-.logo h1 {
+.logo .testo-logo {
+    font-weight: 700;
     display: inline;
     border: 3px solid #fff;
     padding: 0 10px;
@@ -92,6 +93,7 @@ nav ul li a {
 
 nav ul li:hover {
     background-color: #fff;
+    cursor: pointer;
 }
 
 nav ul li:hover a {
